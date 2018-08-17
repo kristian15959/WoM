@@ -12,6 +12,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 5
-  lastUpdatedAtString: 2018-08-18T00:46:06.810+02:00
-  initializedAtString: 2018-08-17T23:30:38.784+02:00
-  entries: []
+  lastUpdatedAtString: 2018-08-18T01:23:07.485+02:00
+  initializedAtString: 2018-08-18T01:05:50.894+02:00
+  entries:
+  - path: Library\gfu\cache\gitstatusentries.yaml
+    fullPath: C:\Users\Domov\Documents\WaM\Library\gfu\cache\gitstatusentries.yaml
+    projectPath: Library\gfu\cache\gitstatusentries.yaml
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\gfu\cache\gittrackingstatus.yaml
+    fullPath: C:\Users\Domov\Documents\WaM\Library\gfu\cache\gittrackingstatus.yaml
+    projectPath: Library\gfu\cache\gittrackingstatus.yaml
+    originalPath: 
+    status: 3
+    staged: 0
