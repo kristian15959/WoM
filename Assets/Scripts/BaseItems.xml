@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Items>
+
+  <Item>
+    <ItemID>10010</ItemID>
+    <ItemType>WEAPON</ItemType>
+    <ItemRequiredLevel>1</ItemRequiredLevel>
+    <ItemName>Sword +0</ItemName>
+    <ItemDescription>Training sword for newbies.</ItemDescription>
+  </Item>
+
+  <Item>
+    <ItemID>10011</ItemID>
+    <ItemType>WEAPON</ItemType>
+    <ItemRequiredLevel>1</ItemRequiredLevel>
+    <ItemName>Sword +1</ItemName>
+    <ItemDescription>Training sword for newbies.</ItemDescription>
+  </Item>
+
+  <Item>
+    <ItemID>10012</ItemID>
+    <ItemType>WEAPON</ItemType>
+    <ItemRequiredLevel>1</ItemRequiredLevel>
+    <ItemName>Sword +2</ItemName>
+    <ItemDescription>Training sword for newbies.</ItemDescription>
+  </Item>
+
+  <Item>
+    <ItemID>10013</ItemID>
+    <ItemType>WEAPON</ItemType>
+    <ItemRequiredLevel>1</ItemRequiredLevel>
+    <ItemName>Sword +3</ItemName>
+    <ItemDescription>Training sword for newbies.</ItemDescription>
+  </Item>
+
+  <Item>
+    <ItemID>10014</ItemID>
+    <ItemType>WEAPON</ItemType>
+    <ItemRequiredLevel>1</ItemRequiredLevel>
+    <ItemName>Sword +4</ItemName>
+    <ItemDescription>Training sword for newbies.</ItemDescription>
+  </Item>
+
+  <Item>
+    <ItemID>10015</ItemID>
+    <ItemType>WEAPON</ItemType>
+    <ItemRequiredLevel>1</ItemRequiredLevel>
+    <ItemName>Sword +5</ItemName>
+    <ItemDescription>Training sword for newbies.</ItemDescription>
+  </Item>
+
+  <Item>
+    <ItemID>10016</ItemID>
+    <ItemType>WEAPON</ItemType>
+    <ItemRequiredLevel>1</ItemRequiredLevel>
+    <ItemName>Sword +6</ItemName>
+    <ItemDescription>Training sword for newbies.</ItemDescription>
+  </Item>
+
+  <Item>
+    <ItemID>10017</ItemID>
+    <ItemType>WEAPON</ItemType>
+    <ItemRequiredLevel>1</ItemRequiredLevel>
+    <ItemName>Sword +7</ItemName>
+    <ItemDescription>Training sword for newbies.</ItemDescription>
+  </Item>
+  
+  <Item>
+    <ItemID>10018</ItemID>
+    <ItemType>WEAPON</ItemType>
+    <ItemRequiredLevel>1</ItemRequiredLevel>
+    <ItemName>Sword +8</ItemName>
+    <ItemDescription>Training sword for newbies.</ItemDescription>
+  </Item>
+
+  <Item>
+    <ItemID>10019</ItemID>
+    <ItemType>WEAPON</ItemType>
+    <ItemRequiredLevel>1</ItemRequiredLevel>
+    <ItemName>Sword +9</ItemName>
+    <ItemDescription>Training sword for newbies.</ItemDescription>
+  </Item>
+
+  
+  
+
+  <Item>
+    <ItemID>20010</ItemID>    
+    <ItemType>ARMOR</ItemType>
+    <ItemRequiredLevel>1</ItemRequiredLevel>
+    <ItemName>Chest Armor +0</ItemName>
+    <ItemDescription>Training Chest for newbies.</ItemDescription>
+  </Item>
+
+  <Item>
+    <ItemID>20011</ItemID>
+    <ItemType>ARMOR</ItemType>
+    <ItemRequiredLevel>1</ItemRequiredLevel>
+    <ItemName>Chest Armor +1</ItemName>
+    <ItemDescription>Training Chest for newbies.</ItemDescription>
+  </Item>
+
+  <Item>
+    <ItemID>20012</ItemID>
+    <ItemType>ARMOR</ItemType>
+    <ItemRequiredLevel>1</ItemRequiredLevel>
+    <ItemName>Chest Armor +2</ItemName>
+    <ItemDescription>Training Chest for newbies.</ItemDescription>
+  </Item>
+
+  <Item>
+    <ItemID>20013</ItemID>
+    <ItemType>ARMOR</ItemType>
+    <ItemRequiredLevel>1</ItemRequiredLevel>
+    <ItemName>Chest Armor +3</ItemName>
+    <ItemDescription>Training Chest for newbies.</ItemDescription>
+  </Item>
+
+  <Item>
+    <ItemID>20014</ItemID>
+    <ItemType>ARMOR</ItemType>
+    <ItemRequiredLevel>1</ItemRequiredLevel>
+    <ItemName>Chest Armor +4</ItemName>
+    <ItemDescription>Training Chest for newbies.</ItemDescription>
+  </Item>
+
+  <Item>
+    <ItemID>20015</ItemID>
+    <ItemType>ARMOR</ItemType>
+    <ItemRequiredLevel>1</ItemRequiredLevel>
+    <ItemName>Chest Armor +5</ItemName>
+    <ItemDescription>Training Chest for newbies.</ItemDescription>
+  </Item>
+
+  <Item>
+    <ItemID>20016</ItemID>
+    <ItemType>ARMOR</ItemType>
+    <ItemRequiredLevel>1</ItemRequiredLevel>
+    <ItemName>Chest Armor +6</ItemName>
+    <ItemDescription>Training Chest for newbies.</ItemDescription>
+  </Item>
+
+  <Item>
+    <ItemID>20017</ItemID>
+    <ItemType>ARMOR</ItemType>
+    <ItemRequiredLevel>1</ItemRequiredLevel>
+    <ItemName>Chest Armor +7</ItemName>
+    <ItemDescription>Training Chest for newbies.</ItemDescription>
+  </Item>
+
+  <Item>
+    <ItemID>20018</ItemID>
+    <ItemType>ARMOR</ItemType>
+    <ItemRequiredLevel>1</ItemRequiredLevel>
+    <ItemName>Chest Armor +8</ItemName>
+    <ItemDescription>Training Chest for newbies.</ItemDescription>
+  </Item>
+
+  <Item>
+    <ItemID>20019</ItemID>
+    <ItemType>ARMOR</ItemType>
+    <ItemRequiredLevel>1</ItemRequiredLevel>
+    <ItemName>Chest Armor +9</ItemName>
+    <ItemDescription>Training Chest for newbies.</ItemDescription>
+  </Item>
+
+</Items>

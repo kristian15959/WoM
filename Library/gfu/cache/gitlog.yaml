@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 61
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -530159753, guid: 68c7e4565cde54155bb78d8e935f1dd4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cacheType: 3
+  lastUpdatedAtString: 2018-08-18T00:46:02.746+02:00
+  initializedAtString: 2018-08-17T23:31:16.892+02:00
+  log:
+  - commitID: e2f04f00971b5d244766a16bf01bce1349e8419a
+    mergeA: 
+    mergeB: 
+    authorName: "Kristi\uFFFDn"
+    authorEmail: kristiansimkanic@gmail.com
+    commitEmail: kristiansimkanic@gmail.com
+    commitName: "Kristi\uFFFDn"
+    summary: Revert "Revert "Add .gitignore and .gitattributes.""
+    description: "Revert \"Revert \"Add .gitignore and .gitattributes.\"\"\r\n\r\nThis
+      reverts commit 84429ec859c684f942097ee5fe56a6cdf40120c7."
+    timeString: 2018-08-18T00:33:08.000+02:00
+    commitTimeString: 2018-08-18T00:33:08.000+02:00
+    changes:
+    - path: .gitattributes
+      fullPath: C:\Users\Domov\Documents\WaM\.gitattributes
+      projectPath: .gitattributes
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: .gitignore
+      fullPath: C:\Users\Domov\Documents\WaM\.gitignore
+      projectPath: .gitignore
+      originalPath: 
+      status: 4
+      staged: 0
+  - commitID: 84429ec859c684f942097ee5fe56a6cdf40120c7
+    mergeA: 
+    mergeB: 
+    authorName: "Kristi\uFFFDn"
+    authorEmail: kristiansimkanic@gmail.com
+    commitEmail: kristiansimkanic@gmail.com
+    commitName: "Kristi\uFFFDn"
+    summary: Revert "Add .gitignore and .gitattributes."
+    description: "Revert \"Add .gitignore and .gitattributes.\"\r\n\r\nThis reverts
+      commit 203af518e5629102a5b702127a080946232d085d."
+    timeString: 2018-08-18T00:32:01.000+02:00
+    commitTimeString: 2018-08-18T00:32:01.000+02:00
+    changes:
+    - path: .gitattributes
+      fullPath: C:\Users\Domov\Documents\WaM\.gitattributes
+      projectPath: .gitattributes
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: .gitignore
+      fullPath: C:\Users\Domov\Documents\WaM\.gitignore
+      projectPath: .gitignore
+      originalPath: 
+      status: 5
+      staged: 0
+  - commitID: 203af518e5629102a5b702127a080946232d085d
+    mergeA: 
+    mergeB: 
+    authorName: Domov
+    authorEmail: Domov@DESKTOP-MEAEQ0F
+    commitEmail: Domov@DESKTOP-MEAEQ0F
+    commitName: Domov
+    summary: Add .gitignore and .gitattributes.
+    description: Add .gitignore and .gitattributes.
+    timeString: 2018-04-05T20:12:02.000+02:00
+    commitTimeString: 2018-04-05T20:12:02.000+02:00
+    changes:
+    - path: .gitattributes
+      fullPath: C:\Users\Domov\Documents\WaM\.gitattributes
+      projectPath: .gitattributes
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: .gitignore
+      fullPath: C:\Users\Domov\Documents\WaM\.gitignore
+      projectPath: .gitignore
+      originalPath: 
+      status: 4
+      staged: 0
