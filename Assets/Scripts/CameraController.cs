@@ -7,13 +7,9 @@ public class CameraController : MonoBehaviour {
 	public float camRotSpeed;
 	public Transform rotX;
 	public GameObject PlayerCharacterTr;
+    public GameObject guideObject;
 
 	float _rotX, _rotY;
-
-	void Start () {
-		PlayerCharacterTr = GameObject.FindWithTag("Player");
-		PlayerCharacterTr.GetComponent<PlayerController>().cam = this.transform;
-	}
 	
 	void Update () {
 

@@ -13,14 +13,11 @@ public class PlayerController : MonoBehaviour {
     public float offsetRotation;
     public Transform guideObject;
     public LayerMask layerMask;
-
-
+    
     //Quaternions
     Quaternion FinalRotation;
     Quaternion BeforeMoveRotation;
-
-
-
+    
     [Header("Results")] 
     public float groundSlopeAngle = 0f;            // Angle of the slope in degrees
     public Vector3 groundSlopeDir = Vector3.zero;  // The calculated slope as a vector
@@ -40,6 +37,9 @@ public class PlayerController : MonoBehaviour {
     void Start()
     {
         _ps = this.GetComponent<PlayerStats>();
+        cam = GameObject.FindGameObjectWithTag("MainCamera").transform;
+        cam.GetComponent<CameraController>().PlayerCharacterTr = this.gameObject;
+        guideObject = cam.GetComponent<CameraController>().guideObject.transform;
     }
 
     void Update()

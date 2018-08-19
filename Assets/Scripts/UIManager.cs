@@ -53,12 +53,12 @@ public class UIManager : MonoBehaviour {
         }
     }
 
-    public void LoginScreen()
+    public void LoginScreen(string debugInfo)
     {
         loginScreen.SetActive(true);
         charactersSelectionScreen.SetActive(false);
         charactersCreationScreen.SetActive(false);
-        DebugInfoText.text = "<color=white>Logged Out.</color>";
+        DebugInfoText.text = "<color=white>" + debugInfo + "</color>";
     }
 
     public void CharacterSelection()
@@ -95,10 +95,10 @@ public class UIManager : MonoBehaviour {
 
     public IEnumerator LogingIntoGame()
     {
-        SceneManager.LoadScene(1);
         loginScreen.SetActive(false);
         charactersSelectionScreen.SetActive(false);
         charactersCreationScreen.SetActive(false);
+        GetComponent<MultiplayerMenu>().Connect();
         yield return new WaitForSeconds(2);
         BackgroundImage.SetActive(false);
         PlayerInGameUI.SetActive(true);

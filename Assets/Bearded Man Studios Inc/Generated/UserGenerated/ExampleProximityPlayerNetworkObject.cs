@@ -8,7 +8,7 @@ namespace BeardedManStudios.Forge.Networking.Generated
 	[GeneratedInterpol("{\"inter\":[0.15]")]
 	public partial class ExampleProximityPlayerNetworkObject : NetworkObject
 	{
-		public const int IDENTITY = 3;
+		public const int IDENTITY = 4;
 
 		private byte[] _dirtyFields = new byte[1];
 
@@ -82,6 +82,10 @@ namespace BeardedManStudios.Forge.Networking.Generated
 			if ((0x1 & _dirtyFields[0]) != 0)
 				UnityObjectMapper.Instance.MapBytes(dirtyFieldsData, _position);
 
+			// Reset all the dirty fields
+			for (int i = 0; i < _dirtyFields.Length; i++)
+				_dirtyFields[i] = 0;
+
 			return dirtyFieldsData;
 		}
 
@@ -116,7 +120,7 @@ namespace BeardedManStudios.Forge.Networking.Generated
 			if (positionInterpolation.Enabled && !positionInterpolation.current.UnityNear(positionInterpolation.target, 0.0015f))
 			{
 				_position = (Vector3)positionInterpolation.Interpolate();
-				RunChange_position(positionInterpolation.Timestep);
+				//RunChange_position(positionInterpolation.Timestep);
 			}
 		}
 

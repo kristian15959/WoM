@@ -4,7 +4,7 @@ using UnityEngine;
 
 public static class DatabaseManager {
 
-    public static string LoginURL = "http://wom.nive.sk/Login.php";
+    public static string LoginURL = "http://wwwom.nive.sk/login";
     public static string CharactersURL = "http://wom.nive.sk/CharactersData.php";
     public static string CreateCharacterURL = "http://wom.nive.sk/CreateCharacter.php";
     public static string CreateUserURL = "http://wom.nive.sk/InsertUser.php";

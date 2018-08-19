@@ -28,22 +28,28 @@ public class Login : MonoBehaviour {
 
     IEnumerator LoginToDB(string email, string password)
     {
+        string hashedPassword = Hash.CalculateMD5Hash(password);
+        Debug.Log(hashedPassword);
+
         loginDebugInfo.text = "Loging into server.";
         WWWForm form = new WWWForm();
-        form.AddField("emailPost", email);
-        form.AddField("passwordPost", password);
-        loginDebugInfo.text = "Loged into server.";
+        form.AddField("email", email);
+        form.AddField("password", password);
+        form.AddField("game", "1");
 
+        loginDebugInfo.text = "Loged into server.";
+        yield return new WaitForSeconds(1);
         WWW www = new WWW(DatabaseManager.LoginURL, form);
         loginDebugInfo.text = "Receiving data from server.";
         yield return www;
         loginDebugInfo.text = "Data from server received.";
+        //Debug.Log(www.text);
         string loginDataString = www.text;
         loginData = loginDataString.Split('|');
 
         switch (DatabaseManager.GetDataValue(loginData[0], "MESSAGE:"))
         {
-            case "Login success":
+            case "SUCCESS":
                 loginDebugInfo.text = "<color=green>"+DatabaseManager.GetDataValue(loginData[0], "MESSAGE:") + ".</color>";
                 Debug.Log("<color=green>" + www.text+".</color>");
                 break;
@@ -57,7 +63,7 @@ public class Login : MonoBehaviour {
                 break;
         }
 
-        if(DatabaseManager.GetDataValue(loginData[0], "MESSAGE:") == "Login success")
+        if(DatabaseManager.GetDataValue(loginData[0], "MESSAGE:") == "SUCCESS")
         {
             AcManager.userID = int.Parse(DatabaseManager.GetDataValue(loginData[1], "ID:"));
             emailInput.text = "";

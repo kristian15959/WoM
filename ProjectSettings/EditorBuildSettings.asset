@@ -9,6 +9,12 @@ EditorBuildSettings:
     path: Assets/Scenes/MainMenu.unity
     guid: d9452c75d0295aa45a4f1a57c6a9504a
   - enabled: 1
-    path: Assets/Scenes/OfflineTestScene.unity
+    path: Assets/Scenes/World.unity
     guid: 54d7e3766f23fa04b9fafa06120c6c9b
+  - enabled: 0
+    path: Assets/Bearded Man Studios Inc/Scenes/MultiplayerMenu.unity
+    guid: a5b9e296c950dcc4d862eeda4ce5052a
+  - enabled: 0
+    path: Assets/Bearded Man Studios Inc/Examples/Cube Forge/GameScene.unity
+    guid: 9deca2fd15c54614cafcb3cce4c30eff
   m_configObjects: {}

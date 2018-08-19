@@ -383,6 +383,7 @@ GameObject:
   - component: {fileID: 114158462702109226}
   - component: {fileID: 114319900285084072}
   - component: {fileID: 114410837035543320}
+  - component: {fileID: 114974321626792572}
   - component: {fileID: 136916718712481128}
   - component: {fileID: 54406043097032816}
   m_Layer: 9
@@ -4671,6 +4672,18 @@ MonoBehaviour:
   Intelligence: 0
   Spirit: 0
   Armor: 0
+--- !u!114 &114974321626792572
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1171546143379012}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37625d6ed39f4f74f9da62e05620b528, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 5
 --- !u!136 &136916718712481128
 CapsuleCollider:
   m_ObjectHideFlags: 1

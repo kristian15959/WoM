@@ -12,12 +12,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 2
-  lastUpdatedAtString: 2018-08-18T00:42:58.496+02:00
-  initializedAtString: 2018-08-17T23:31:17.675+02:00
+  lastUpdatedAtString: 2018-08-19T02:57:30.180+02:00
+  initializedAtString: 2018-08-19T02:57:30.022+02:00
   localBranches:
   - name: master
     tracking: origin/master
-  remoteBranches: []
+  remoteBranches:
+  - name: origin/master
+    tracking: '[None]'
   remotes:
   - name: origin
     url: https://github.com/kristian15959/WoM.git
@@ -36,9 +38,18 @@ MonoBehaviour:
         url: https://github.com/kristian15959/WoM.git
       trackingBranch: master
   remoteConfigBranches:
-    keys: []
-    subKeys: []
-    subKeyValues: []
+    keys:
+    - origin
+    subKeys:
+    - Values:
+      - master
+    subKeyValues:
+    - Values:
+      - name: master
+        remote:
+          name: origin
+          url: https://github.com/kristian15959/WoM.git
+        trackingBranch: 
   configRemotes:
     keys:
     - origin

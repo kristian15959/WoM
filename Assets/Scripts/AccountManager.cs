@@ -20,16 +20,11 @@ public class AccountManager : MonoBehaviour {
         }
         Debug.Log("<color=white>Logged Out.</color>");
         GetComponent<UIManager>().DebugTextUI.text = ("<color=white>Logged Out.</color>");
-        GetComponent<UIManager>().LoginScreen();
+        GetComponent<UIManager>().LoginScreen("Logged Out.");
     }
 
     public IEnumerator LoadCharacters()
     {
-        foreach (Transform item in GetComponent<UIManager>().CharactersList.transform)
-        {
-            Destroy(item.gameObject);
-        }
-
         GetComponent<UIManager>().loadingCharactersScreen.SetActive(true);
 
         WWWForm form = new WWWForm();
@@ -57,10 +52,10 @@ public class AccountManager : MonoBehaviour {
                     charSelectionItemInstance._class.text = DatabaseManager.GetDataValue(baseCharactersData[i], "Class:");
                     charSelectionItemInstance._level.text = DatabaseManager.GetDataValue(baseCharactersData[i], "Level:") + "lvl";
                 }                
-            }
-            
-            yield return new WaitForSeconds(0.1f);
-            GetComponent<UIManager>().loadingCharactersScreen.SetActive(false);
+            }            
         }
+
+        yield return new WaitForSeconds(0.1f);
+        GetComponent<UIManager>().loadingCharactersScreen.SetActive(false);
     }
 }

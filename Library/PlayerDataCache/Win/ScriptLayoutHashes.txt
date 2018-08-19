@@ -1,6 +1,6 @@
 WindowsStandalone
 PlayerPath?
-C:/Users/Domov/Documents/WOMBuilds/WoM V0.01/WaM.exe
+C:/Users/Domov/Documents/WOMBuilds/WoM V0.015/WaM.exe
 SceneListBegin?
 Assets/Scenes/MainMenu.unity
 Assets/Scenes/World.unity
@@ -71,6 +71,7 @@ e90403eeda069970e0b9de1533de13a6 UnityEngine.UI.dll:UnityEngine.UI.ToggleGroup
 88d7d4231f4e98130c285a8556f9964e Unity.Postprocessing.Runtime.dll:UnityEngine.Rendering.PostProcessing.DepthOfField
 1d06b342ac168de9dd20ce549b9f7847 Unity.RenderPipelines.Core.Runtime.dll:UnityEngine.Experimental.Rendering.UI.DebugUIHandlerVector3
 50b0b141074b216c8b53b1bd467f73c9 Unity.TextMeshPro.dll:TMPro.TMP_InputField
+486cd95c82d8305219c352c06b776e1f Assembly-CSharp.dll:.Hash
 53cefe5d98cadefbab750835e70b89c0 UnityEngine.UI.dll:UnityEngine.UI.AspectRatioFitter
 486cd95c82d8305219c352c06b776e1f UnityEngine.UI.dll:UnityEngine.EventSystems.BaseInput
 da2091a04d360891450faf16cdf621f1 UnityEngine.UI.dll:UnityEngine.UI.Button
@@ -105,7 +106,7 @@ e90403eeda069970e0b9de1533de13a6 UnityEngine.UI.dll:UnityEngine.UI.ToggleGroup
 16da51d1b62ef6d4ee1849350434023b UnityEngine.UI.dll:UnityEngine.UI.VerticalLayoutGroup
 486cd95c82d8305219c352c06b776e1f Assembly-CSharp.dll:.InventorySlot
 cf99db52079f7d454b61c657b8715ec0 Unity.Postprocessing.Runtime.dll:UnityEngine.Rendering.PostProcessing.ScreenSpaceReflections
-95ec39fafd6411e8c24e04e970488361 Assembly-CSharp.dll:BeardedManStudios.Forge.Networking.Unity.NetworkManager
+4df93511934a0f479580cd379d44e9ac Assembly-CSharp.dll:BeardedManStudios.Forge.Networking.Unity.NetworkManager
 fc61432802d627e9bad32dbeb93f774e Unity.Postprocessing.Runtime.dll:UnityEngine.Rendering.PostProcessing.PostProcessProfile
 21a4a4ae89e758b58bcdee7774e33f35 Assembly-CSharp.dll:.playerCharacterAndEquip
 22047f3c3fbb715550f61eddb26e9cd3 Unity.Postprocessing.Runtime.dll:UnityEngine.Rendering.PostProcessing.Vignette
@@ -124,6 +125,7 @@ c7dd12c15208b0447e101f80038706df UnityEngine.Timeline.dll:UnityEngine.Timeline.A
 8a193ee49e5aea42a841b9ca5105c0bf Unity.RenderPipelines.Core.Runtime.dll:UnityEngine.Experimental.Rendering.CameraSwitcher
 66b3109aa5921cf800bec17926c6adba Unity.TextMeshPro.dll:TMPro.TMP_SubMeshUI
 2feb8b8b5e7bd6bacb85c37becc382eb Unity.RenderPipelines.Lightweight.Runtime.dll:.LightweightPipelineResources
+a0e44272d993fb256482e7d17d1478f7 Assembly-CSharp.dll:.CharacterCreation
 201273fb4f889724fb090164b7d6c657 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkAnimator
 486cd95c82d8305219c352c06b776e1f UnityEngine.Networking.dll:UnityEngine.Networking.NetworkBehaviour
 0f27c39183b9eb95eba0a228bea28273 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkDiscovery
@@ -142,6 +144,7 @@ fc061f3ae8a876c0687e86378d4a447c UnityEngine.Networking.dll:UnityEngine.Networki
 0a006f3734181ba8b26758f0866152c0 UnityEngine.SpatialTracking.dll:UnityEngine.SpatialTracking.TrackedPoseDriver
 79e4c42a75532275b303e5effdd6565a Assembly-CSharp.dll:.BaseItemDatabase
 486cd95c82d8305219c352c06b776e1f Assembly-CSharp.dll:.DontDestroy
+486cd95c82d8305219c352c06b776e1f Assembly-CSharp.dll:.MoveCube
 21004f82bccaced983eff02f0f6f8f92 Unity.RenderPipelines.Core.Runtime.dll:UnityEngine.Experimental.Rendering.UI.UIFoldout
 970e137a813cc65105401a5ef0432ac0 Unity.RenderPipelines.Core.Runtime.dll:UnityEngine.Experimental.Rendering.GPUCopyAsset
 84295bd507a84c8be6f2ddbd733c1377 Assembly-CSharp.dll:BeardedManStudios.Forge.Networking.Unity.ServerBrowser
@@ -156,7 +159,7 @@ dfd33ff9ae3ce8d7ca1f22b475ec2387 UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.Spa
 d97ba88a41ab4d50a9bf9f5ec6275db4 Assembly-CSharp.dll:BeardedManStudios.Forge.Networking.Unity.Lobby.LobbyPlayerItem
 96f3ea9f23b6f08e60710ebb4af49174 Unity.TextMeshPro.dll:TMPro.TMP_SpriteAsset
 6237609cdc3539d836df167f26b557b5 Unity.RenderPipelines.Core.Runtime.dll:UnityEngine.Experimental.Rendering.UI.DebugUIHandlerToggle
-95ec39fafd6411e8c24e04e970488361 Assembly-CSharp.dll:BeardedManStudios.Forge.Networking.Unity.NetworkManager
+4df93511934a0f479580cd379d44e9ac Assembly-CSharp.dll:BeardedManStudios.Forge.Networking.Unity.NetworkManager
 7cdcbeb117e5aeccbee1042f4420f2e6 Unity.Postprocessing.Runtime.dll:UnityEngine.Rendering.PostProcessing.ChromaticAberration
 37f88252583e63d15a6d307ed12adcb7 Unity.RenderPipelines.Lightweight.Runtime.dll:UnityEngine.Experimental.Rendering.LightweightPipeline.LightweightPipelineAsset
 54d94767bf2745fc07cb4bd4f1b3ea16 Unity.RenderPipelines.Core.Runtime.dll:UnityEngine.Experimental.Rendering.UI.DebugUIHandlerGroup
@@ -165,11 +168,9 @@ f16835701e71dd5d6fb1fed4b7aff1d8 Unity.TextMeshPro.dll:TMPro.TMP_Asset
 980bb723204d5ad0173dd30d4e16eb6c Assembly-CSharp.dll:.CharacterSelectionListItem
 64b7e1f06d9a338aee4bc5624172598b Assembly-CSharp.dll:.Login
 486cd95c82d8305219c352c06b776e1f Assembly-CSharp.dll:.ChatMaker
-d3baf945a28bf6b4a4706c8193e7459e Assembly-CSharp.dll:.NetCam
 f91e905cb4700d517b9743fb232dc047 Assembly-CSharp.dll:.AccountManager
 e7569158359cd576771e3388b932ab51 Assembly-CSharp.dll:BeardedManStudios.Forge.Networking.Unity.Lobby.LobbyManager
 486cd95c82d8305219c352c06b776e1f Unity.RenderPipelines.Core.Runtime.dll:UnityEngine.Experimental.Rendering.DebugUpdater
-e7fb15efbc558a40115bf458b3b592b2 Assembly-CSharp.dll:.Primitive
 dc1f1de66aabe556944f95f4926904d7 Unity.Postprocessing.Runtime.dll:UnityEngine.Rendering.PostProcessing.PostProcessResources
 486cd95c82d8305219c352c06b776e1f Unity.TextMeshPro.dll:TMPro.TMP_SpriteAnimator
 108398666b870c8be31bd666b465e311 Unity.Postprocessing.Runtime.dll:UnityEngine.Rendering.PostProcessing.AutoExposure
@@ -244,21 +245,24 @@ aac9c55ae7ba4b95b852a7d9c191acd1 Unity.TextMeshPro.dll:TMPro.TextMeshProUGUI
 87e6d6cdb033f3871305944a6581e2cb Unity.RenderPipelines.Core.Runtime.dll:UnityEngine.Experimental.Rendering.UI.DebugUIHandlerVector2
 0a006f3734181ba8b26758f0866152c0 UnityEngine.SpatialTracking.dll:UnityEngine.SpatialTracking.TrackedPoseDriver
 aae9893fc05b6c8cba8317ed327be0c4 Unity.RenderPipelines.Core.Runtime.dll:UnityEngine.Experimental.Rendering.UI.DebugUIHandlerValue
+d3baf945a28bf6b4a4706c8193e7459e Assembly-CSharp.dll:.BasicCube
+486cd95c82d8305219c352c06b776e1f Assembly-CSharp.dll:.GameLogic
 aae9893fc05b6c8cba8317ed327be0c4 Unity.RenderPipelines.Core.Runtime.dll:UnityEngine.Experimental.Rendering.UI.DebugUIHandlerUIntField
 5e7d7b792d8ba90778cc0aad4fbbc706 Assembly-CSharp.dll:BeardedManStudios.Forge.Networking.Unity.ServerBrowserItem
-1a147f65cea86354aee15e4fb91e2695 Assembly-CSharp.dll:.CubeForgeGame
+8844895882a0c313dbfb0eb8c0e5d4ee Assembly-CSharp.dll:.WaterSystem
 e04611b8715e6833d2bd7010fc6be10b Unity.TextMeshPro.dll:TMPro.TMP_StyleSheet
 486cd95c82d8305219c352c06b776e1f Assembly-CSharp.dll:.ItemDragHandler
 c1791db8df7a6d30dc3a3e487bced78b Unity.Postprocessing.Runtime.dll:UnityEngine.Rendering.PostProcessing.PostProcessVolume
 7c997acc7f9930bd5f16c49cff4a6b10 Unity.RenderPipelines.Core.Runtime.dll:UnityEngine.Experimental.Rendering.UI.DebugUIHandlerCanvas
 7a1ff18e15d0a860ac99542974a3cbd5 Unity.Postprocessing.Runtime.dll:UnityEngine.Rendering.PostProcessing.Grain
 2f9af06a78208a67db480e9bfed4a076 Unity.TextMeshPro.dll:TMPro.TextMeshPro
+486cd95c82d8305219c352c06b776e1f Assembly-CSharp.dll:.Player
 9318334b30e9f195f573b2ce00154b95 Unity.TextMeshPro.dll:TMPro.TMP_ColorGradient
 a91cfa1f9b263f08e8be8c29c6eb27f7 Unity.RenderPipelines.Core.Runtime.dll:.SceneRenderPipeline
-bdadc3037a1816fb47779b1e1b1f0cb1 Assembly-CSharp.dll:.UIManager
+b654f5ab46416a68a97f3e5fbeda1f6b Assembly-CSharp.dll:.UIManager
 09824dc52186816875b84af8b46b6c1c Unity.Postprocessing.Runtime.dll:UnityEngine.Rendering.PostProcessing.AmbientOcclusion
 93307bd34e39d73fd24e00ec39c25a91 Unity.TextMeshPro.dll:TMPro.TMP_SubMesh
-b1f7d92e42f86706e799e8f4f41d9489 Assembly-CSharp.dll:.CameraController
+4cdca152b1774fb1d10ccb9eb6cb273a Assembly-CSharp.dll:.CameraController
 ca8a8ac7a93a3e849ad8249adf821d7d Unity.RenderPipelines.Core.Runtime.dll:UnityEngine.Experimental.Rendering.AdditionalShadowData
 3fc9a3da919a3cb3b5a2ee83e105c7be Unity.RenderPipelines.Core.Runtime.dll:UnityEngine.Experimental.Rendering.UI.DebugUIHandlerVector4
 aae9893fc05b6c8cba8317ed327be0c4 Unity.RenderPipelines.Core.Runtime.dll:UnityEngine.Experimental.Rendering.UI.DebugUIHandlerIntField

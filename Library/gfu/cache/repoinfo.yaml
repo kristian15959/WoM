@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 1
-  lastUpdatedAtString: 2018-08-18T00:42:50.444+02:00
-  initializedAtString: 2018-08-17T23:30:35.793+02:00
+  lastUpdatedAtString: 2018-08-19T02:56:02.444+02:00
+  initializedAtString: 2018-08-19T02:56:02.444+02:00
   currentGitRemote:
     name: origin
     url: https://github.com/kristian15959/WoM.git
@@ -34,4 +34,4 @@ MonoBehaviour:
   currentConfigRemote:
     name: origin
     url: https://github.com/kristian15959/WoM.git
-  currentHead: e2f04f0
+  currentHead: 5a1bbe81
